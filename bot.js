@@ -214,4 +214,4 @@ function on_message(message) {
 	});
 }
 
-client.login(config.discord_token);
+client.login(process.env.BOTTOKEN);
